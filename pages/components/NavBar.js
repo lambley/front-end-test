@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import LoginButton from './LoginButton';
 import { Container } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { Navbar } from 'react-bootstrap';
@@ -15,9 +16,6 @@ const NavBar = () => {
               height="64"
             ></Image>
           </Navbar.Brand>
-          {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-          {/* <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto"> */}
           <Nav.Link className="nav-link-white" href="#">
             TV
           </Nav.Link>
@@ -42,8 +40,9 @@ const NavBar = () => {
           <Nav.Link className="nav-link-white" href="#">
             Disneylife
           </Nav.Link>
-          {/* </Nav>
-          </Navbar.Collapse> */}
+          <Nav.Link>
+            <LoginButton></LoginButton>
+          </Nav.Link>
         </Container>
       </Navbar>
     </>
