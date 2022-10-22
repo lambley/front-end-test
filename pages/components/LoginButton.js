@@ -5,7 +5,7 @@ import { faSearchengin } from '@fortawesome/free-brands-svg-icons';
 const LoginButton = () => {
   return (
     <>
-      <Button variant="primary">
+      <Button className="login-button-orange">
         <FontAwesomeIcon icon={faSearchengin} />
         Login/Register
       </Button>
