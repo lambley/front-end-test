@@ -17,7 +17,7 @@ const HeroBanner = () => {
           }}
         ></Image>
         <Carousel.Caption>
-          <h3>Star Wars: The Force Awakens</h3>
+          <h2>Star Wars: The Force Awakens</h2>
           <p>Available to Rent or Buy Now</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -34,7 +34,7 @@ const HeroBanner = () => {
           }}
         ></Image>
         <Carousel.Caption>
-          <h3>Star Wars: The Last Jedi</h3>
+          <h2>Star Wars: The Last Jedi</h2>
           <p>Available to Rent or Buy Now</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -51,7 +51,7 @@ const HeroBanner = () => {
           }}
         ></Image>
         <Carousel.Caption>
-          <h3>Star Wars: The Rise of Skywalker</h3>
+          <h2>Star Wars: The Rise of Skywalker</h2>
           <p>Available to Rent or Buy Now</p>
         </Carousel.Caption>
       </Carousel.Item>
