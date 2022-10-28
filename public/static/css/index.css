@@ -18,6 +18,17 @@
   border-radius: 32px;
 }
 
+.login-button-orange:active {
+  background-color: rgb(255, 89, 0) !important;
+  border-color: rgb(255, 89, 0) !important;
+}
+
+.login-button-orange:hover {
+  background-color: rgb(255, 89, 0);
+  border-color: rgb(255, 89, 0);
+  box-shadow: 0px 0px 3px 2px rgb(255 89 0 / 40%);
+}
+
 .hero-banner-image {
   height: 80vh;
 }
@@ -28,6 +39,17 @@
   font-size: large;
   background-color: transparent;
   border-color: white;
+}
+
+.button-clear:hover {
+  background-color: transparent !important;
+  border-color: white !important;
+  box-shadow: 0px 0px 3px 2px white;
+}
+
+.button-clear:active {
+  background-color: transparent !important;
+  border-color: white !important;
 }
 
 .hero-banner-vertical-center {
