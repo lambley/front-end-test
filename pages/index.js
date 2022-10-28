@@ -1,11 +1,14 @@
 import HeroBanner from './components/HeroBanner';
 import NavBar from './components/NavBar';
+import React from 'react';
 
 const Index = () => {
   return (
     <div>
-      <NavBar />
-      <HeroBanner />
+      <React.StrictMode>
+        <NavBar />
+        <HeroBanner />
+      </React.StrictMode>
     </div>
   );
 };
