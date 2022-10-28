@@ -21,3 +21,19 @@
 .hero-banner-image {
   height: 80vh;
 }
+
+.button-clear {
+  border-radius: 9999px;
+  padding: 4px 44px;
+  font-size: large;
+  background-color: transparent;
+  border-color: white;
+}
+
+.hero-banner-vertical-center {
+  padding: 80px 0;
+}
+
+.hero-banner-image-filter {
+  filter: brightness(50%) contrast(70%) saturate(100%);
+}
