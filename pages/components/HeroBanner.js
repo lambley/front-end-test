@@ -2,21 +2,61 @@ import Image from 'next/image';
 import Carousel from 'react-bootstrap/Carousel';
 
 const HeroBanner = () => {
-  <Carousel fade>
-    <Carousel.Item>
-      <Image
-        src="/static/images/swfa.jpg"
-        width="0"
-        height="0"
-        sizes="100vw"
-        style={{ width: '100%', height: 'auto' }}
-      ></Image>
-      <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </Carousel.Caption>
-    </Carousel.Item>
-  </Carousel>;
+  return (
+    <Carousel fade>
+      <Carousel.Item className="hero-banner-image">
+        <Image
+          src="/static/images/swfa-wide.jpg"
+          width={700}
+          height={475}
+          sizes="100vw"
+          style={{
+            width: '100%',
+            height: 'auto',
+            objectFit: 'cover',
+          }}
+        ></Image>
+        <Carousel.Caption>
+          <h3>Star Wars: The Force Awakens</h3>
+          <p>Available to Rent or Buy Now</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className="hero-banner-image">
+        <Image
+          src="/static/images/swtlj-wide.jpg"
+          width={700}
+          height={475}
+          sizes="100vw"
+          style={{
+            width: '100%',
+            height: 'auto',
+            objectFit: 'cover',
+          }}
+        ></Image>
+        <Carousel.Caption>
+          <h3>Star Wars: The Last Jedi</h3>
+          <p>Available to Rent or Buy Now</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className="hero-banner-image">
+        <Image
+          src="/static/images/swtros-wide.webp"
+          width={700}
+          height={475}
+          sizes="100vw"
+          style={{
+            width: '100%',
+            height: 'auto',
+            objectFit: 'contain',
+          }}
+        ></Image>
+        <Carousel.Caption>
+          <h3>Star Wars: The Rise of Skywalker</h3>
+          <p>Available to Rent or Buy Now</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
 };
 
 export default HeroBanner;
