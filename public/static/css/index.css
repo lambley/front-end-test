@@ -20,6 +20,10 @@
   border-radius: 9999px;
 }
 
+.button-padding {
+  padding: 4px 44px;
+}
+
 .login-button-orange {
   background-color: rgb(255, 89, 0);
   border-color: rgb(255, 89, 0);
@@ -41,7 +45,6 @@
 }
 
 .button-clear {
-  padding: 4px 44px;
   font-size: large;
   background-color: transparent;
   border-color: white;
