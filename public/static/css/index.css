@@ -85,3 +85,13 @@
 .newreleases-container h2 {
   text-align: left;
 }
+
+.newreleases-top-row {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+}
