@@ -4,6 +4,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+.navbar-wider {
+  height: 15vh;
+}
+
 .nav-link-white {
   color: white;
 }
@@ -30,7 +34,7 @@
 }
 
 .hero-banner-image {
-  height: 80vh;
+  height: 85vh;
 }
 
 .button-clear {

@@ -7,7 +7,7 @@ import { Navbar } from 'react-bootstrap';
 const NavBar = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+      <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className='navbar-wider'>
         <Container>
           <Navbar.Brand href="#home">
             <Image
