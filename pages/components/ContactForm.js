@@ -30,7 +30,7 @@ const ContactForm = () => {
             placeholder="Email Address"
           ></Form.Control>
         </Form.Group>
-        <Form.Group className='d-flex'>
+        <Form.Group className='d-flex mb-2'>
           <Form.Control
             className="m-2"
             placeholder="Leave your comment here..."
