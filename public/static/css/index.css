@@ -95,3 +95,8 @@
   flex-direction: row;
   align-content: flex-start;
 }
+
+.trailer-half-block {
+  width: 50%;
+  height: auto;
+}
