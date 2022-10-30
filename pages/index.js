@@ -2,6 +2,7 @@ import HeroBanner from './components/HeroBanner';
 import NavBar from './components/NavBar';
 import NewReleases from './components/NewReleases';
 import Trailer from './components/Trailer';
+import Footer from './components/Footer';
 import React from 'react';
 
 const Index = () => {
@@ -25,6 +26,7 @@ const Index = () => {
         </div>
         <NewReleases />
         <Trailer />
+        <Footer />
       </React.StrictMode>
     </div>
   );
