@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import NewReleases from './components/NewReleases';
 import Trailer from './components/Trailer';
 import Footer from './components/Footer';
+import ContactForm from './components/ContactForm';
 import React from 'react';
 
 const Index = () => {
@@ -26,6 +27,7 @@ const Index = () => {
         </div>
         <NewReleases />
         <Trailer />
+        <ContactForm />
         <Footer />
       </React.StrictMode>
     </div>
