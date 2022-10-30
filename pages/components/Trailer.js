@@ -4,14 +4,17 @@ import Button from 'react-bootstrap/Button';
 const Trailer = () => {
   return (
     <div className="d-flex">
-      <div className="w-50">
+      <div className="w-50 next-image-fix">
         <Image
           src="/static/images/SWCharacterPosters-Rey1.webp"
           width="1000"
           height="700"
           objectFit="cover"
           className="fluid"
-          style={{ objectPosition: 'top', height: 'auto' }}
+          style={{
+            objectPosition: 'top',
+            height: 'auto',
+          }}
         ></Image>
       </div>
       <div className="d-flex row w-50 align-content-center p-5 mx-5">

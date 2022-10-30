@@ -96,15 +96,14 @@
   align-content: flex-start;
 }
 
-.trailer-half-block {
-  width: 50%;
-  height: auto;
+.next-image-fix > span {
+  display: block !important;
+  height: 100% !important;
 }
 
 .footer {
   padding: 16px 64px;
   width: 100%;
-
 }
 
 .footer-black {
